@@ -3,6 +3,8 @@
 This is a small tutorial to deploy Nginx pods with a service and Ingress Controller to your local environment.
 We are going to use dnsmask which is a easy to configure DNS forwarder, DHCP server software and router advertisement subsystem for small local networks.
 
+![Nginx running](https://raw.githubusercontent.com/christi4n/k8s-dnsmask-ingress/master/assets/nginx-local.png)
+
 We use Minikube for our local cluster.
 
 It is a good practice to use a specific namespace for a particular project but for our tutorial, we are going to use the default namespace.
